@@ -10,3 +10,4 @@
 # word-wise deletion
 "\e[3;5~": kill-word
 "\C-h": backward-kill-word
+"\C-_": backward-kill-word
