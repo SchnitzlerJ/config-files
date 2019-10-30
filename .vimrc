@@ -8,3 +8,4 @@ syntax on
 inoremap <C-H> <C-o>db
 inoremap <C-BS> <C-o>db
 inoremap <C-kDel> <C-o>de
+hi CursorLineNR cterm=standout
