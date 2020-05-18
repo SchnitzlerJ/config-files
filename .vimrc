@@ -4,6 +4,8 @@ set smartindent
 set tabstop=4
 set shiftwidth=4
 set hidden
+set ignorecase
+set smartcase
 syntax on
 inoremap <C-H> <C-o>db
 inoremap <C-BS> <C-o>db
