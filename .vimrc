@@ -13,3 +13,4 @@ inoremap <C-kDel> <C-o>de
 hi CursorLineNR cterm=standout
 set timeoutlen=3000
 set ttimeoutlen=100
+map Y y$
