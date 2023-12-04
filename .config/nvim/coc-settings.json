@@ -1,0 +1,9 @@
+{
+	"rust-analyzer.server.extraEnv": {
+		"CARGO_TARGET_DIR": "target_nvim-coc"
+	},
+	"git.addGBlameToVirtualText": true,
+	"git.changedSign.text": "",
+	"git.addedSign.text": "",
+	"git.removedSign.text": ""
+}
