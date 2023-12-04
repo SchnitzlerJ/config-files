@@ -5,6 +5,7 @@
 - Run `:PlugInstall` to install coc and rust support.
 - Install rust-analyzer, e.g. with `rustup component add rust-analyzer`.
 - Install coc-rust-analyzer with `:CocInstall coc-rust-analyzer`
+- Install coc-git with `:CocInstall coc-git`
 
 # Controls
 
