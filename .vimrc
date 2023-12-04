@@ -22,3 +22,13 @@ set timeoutlen=3000
 set ttimeoutlen=100
 " Y yanks from cursor to end of line
 map Y y$
+set title
+
+if has("autocmd")
+  "  When editing a file jump to last valid position. Don't do this if it's a
+  "  commit message
+  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") && &ft !~# 'commit' | exe "normal! g'\"" | endif
+endif
+
+" Make Vim more user friendly but break compatibility with Vi
+set nocompatible
