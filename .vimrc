@@ -8,6 +8,7 @@ set shiftwidth=4
 set hidden
 set ignorecase
 set smartcase
+set encoding=utf-8
 syntax on
 inoremap <C-H> <C-o>db
 inoremap <C-BS> <C-o>db
